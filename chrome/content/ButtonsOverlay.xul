@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://frosconrt/skin/buttons.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://frosconrt/locale/frosconrt.dtd">
+
+<overlay id="frosconrtOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <script type="application/x-javascript" src="chrome://frosconrt/content/Functions.js"/>
+
+    <toolbarpalette id="header-view-toolbar-palette">
+        <toolbarbutton id="frosconrt-spam"
+            class="toolbarbutton-1 msgHeaderView-button"
+            label="&frosconrt.spambutton.label;"
+            tooltiptext="&frosconrt.spambutton.tooltip;"
+            oncommand="frosconrtFunctions.Spam(event,'html');">
+        </toolbarbutton>
+        <toolbarbutton id="frosconrt-take"
+            class="toolbarbutton-1 msgHeaderView-button"
+            label="&frosconrt.takebutton.label;"
+            tooltiptext="&frosconrt.takebutton.tooltip;"
+            oncommand="frosconrtFunctions.Take(event,'html');">
+        </toolbarbutton>
+    </toolbarpalette>
+    <toolbarpalette id="MailToolbarPalette">
+        <toolbarbutton id="frosconrt-spam"
+            class="toolbarbutton-1"
+            label="&frosconrt.spambutton.label;"
+            tooltiptext="&frosconrt.spambutton.tooltip;"
+            oncommand="frosconrtFunctions.Spam(event,'html');">
+        </toolbarbutton>
+        <toolbarbutton id="frosconrt-take"
+            class="toolbarbutton-1"
+            label="&frosconrt.takebutton.label;"
+            tooltiptext="&frosconrt.takebutton.tooltip;"
+            oncommand="frosconrtFunctions.Take(event,'html');">
+        </toolbarbutton>
+    </toolbarpalette>
+</overlay>

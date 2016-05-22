@@ -1,0 +1,7 @@
+<!ENTITY frosconrt.spambutton.label             "Spam">
+<!ENTITY frosconrt.spambutton.tooltip           "Move to Spam queue and delete">
+<!ENTITY frosconrt.spambutton.accesskey         "S">
+
+<!ENTITY frosconrt.takebutton.label             "Take">
+<!ENTITY frosconrt.takebutton.tooltip           "Take message">
+<!ENTITY frosconrt.takebutton.accesskey         "T">

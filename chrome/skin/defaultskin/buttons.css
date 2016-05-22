@@ -1,0 +1,9 @@
+#frosconrt-spam {
+    -moz-image-region: rect(0px 16px 16px 0px);
+    list-style-image: url("chrome://frosconrt/skin/junk.png");
+}
+
+#frosconrt-take {
+    -moz-image-region: rect(0px 16px 16px 0px);
+    list-style-image: url("chrome://frosconrt/skin/take.png");
+}
